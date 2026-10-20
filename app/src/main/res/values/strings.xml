@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Protect My Phone</string>
+    <string name="device_admin_description">Allows the owner-approved device to be locked remotely after a verified command.</string>
+</resources>

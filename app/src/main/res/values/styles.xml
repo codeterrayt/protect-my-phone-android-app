@@ -1,0 +1,11 @@
+<resources>
+    <style name="Theme.ProtectMyPhone" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">#24B47E</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">#F5F7F6</item>
+        <item name="android:navigationBarColor">#F5F7F6</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+</resources>
