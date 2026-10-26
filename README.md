@@ -70,17 +70,19 @@ After installation, turn off the install permission for the browser or file mana
 
 ### Play Protect warnings
 
-Google Play Protect can block an unverified sideloaded app that requests sensitive permissions commonly abused by scammers. This app requests SMS permissions for its command channel, plus optional location and device-management access. These permissions can attract scrutiny; that does not establish the cause of every warning or prove an APK safe.
+Download the official signed APK from Code Terra using the release link above. The source code is public, and each release includes a checksum to verify your download.
+
+Protect My Phone uses SMS to exchange recovery commands between your paired phones. Location sharing and remote lock are features you choose to enable. Play Protect can show a warning for apps installed outside Google Play that request permissions such as SMS.
 
 Google Play's distribution policy separately excludes SMS-based device locators and remote phone control. The current SMS edition is distributed here as an APK. See [Google's SMS policy](https://support.google.com/googleplay/android-developer/answer/10208820) and [Play Protect guidance](https://support.google.com/googleplay/answer/2812853).
 
-If you have reviewed the source and trust the release, Play Protect settings provide an optional troubleshooting step:
+If Play Protect blocks installation and you choose to continue with the official APK:
 
 1. Open **Play Store → profile picture → Play Protect → Settings**.
 2. Turn off **Scan apps with Play Protect**, then retry installation.
 3. Turn scanning back on afterward.
 
-**This temporarily reduces protection for the whole phone. Google recommends leaving Play Protect enabled.** Disabling scanning may not remove every installation restriction, and later scans can still warn about, disable or remove an app. Do not bypass warnings for APKs from mirrors or unknown senders.
+Turning scanning off temporarily reduces protection for your phone. **Keep it enabled afterward.** Use only the official release linked above.
 
 ### Install with ADB
 
