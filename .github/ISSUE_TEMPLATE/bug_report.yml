@@ -1,0 +1,31 @@
+name: Bug report
+description: Report an issue using test data and redacted logs.
+body:
+  - type: markdown
+    attributes:
+      value: Do not include phone numbers, exact locations, SMS messages, QR codes, keys or debugging credentials. Report vulnerabilities using SECURITY.md.
+  - type: input
+    id: version
+    attributes:
+      label: App version
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Android version and device model
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include the permissions enabled and use fictional device data.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and actual result
+    validations:
+      required: true
